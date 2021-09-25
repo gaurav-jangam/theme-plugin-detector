@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.outer{
+  width: 100%;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.theme-name{  
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #00b4cc10;
+  border-radius: 10px;
+}
+
+.theme-name  img {
+  display: none!important;
+}
+
+#theme_title > .closearrow, .openarrow{
+  display: none;
+}
+
+.themetags{
+  display: none;
+}
+
+.plugin_info{
+  display: none;
+}
+
+input.searchButton{
+  padding: 1px !important;
+  font-size: 1.5rem !important; 
+  background: #00B4CC !important;
+}
+
+
+.searchButton {
+  align-items: center;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 12px;
+  width: 100px;
+}
+
+/*Resize the wrap to see the search bar change!*/
